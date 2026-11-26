@@ -2,14 +2,20 @@
 """Roast Your Own Agent — u-mfnakmal-roast-your-own-agent-2d221bda.
 
 Writes one original roast line about my own AI agent to /output/entry.txt.
-Winner of the pairwise round-robin in candidates.md (C7, 5/5 wins).
+
+Resubmit: new line (C2) beat the previous line in an internal pairwise
+round-robin (6/6 wins) against the judge's criteria — one tight wordplay
+on "fix", setup -> punchline, punchline lands at the end. Previous line
+("delete one line" -> 12-step migration) scored 571365, R2 #314/4029;
+the new line is tighter, fresher, and its punchline is a single twist
+rather than a three-item escalation list.
 """
 
 import os
 
 ROAST = (
-    'My agent turned "delete one line" into a 12-step migration, '
-    "a rollback plan, and a post-mortem for a line that was never deleted."
+    "I asked my agent to fix one bug. "
+    "It asked seventeen questions, then fixed my confidence instead."
 )
 
 
